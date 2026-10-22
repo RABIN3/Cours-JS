@@ -1,4 +1,4 @@
-for (let number = 1; number < 30; number++) {
+for (let number = 1; number <= 30; number++) {
     if (number % 3 === 0 && number % 5 === 0) {
         console.log("FizzBuzz");
     } else if (number % 3 === 0) {
